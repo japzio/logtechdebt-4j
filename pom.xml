@@ -10,10 +10,10 @@
     <packaging>pom</packaging>
 
     <name>logtechdebt-4j</name>
-  <!-- FIXME change it to the project's website -->
+    <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
     <modules>
-        <module>annotations</module>
+      <module>annotation</module>
       <module>processor</module>
     </modules>
 
