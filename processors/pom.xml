@@ -7,7 +7,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>processor</artifactId>
+    <artifactId>processors</artifactId>
     <packaging>jar</packaging>
 
     <name>processor</name>
@@ -24,9 +24,8 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>

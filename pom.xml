@@ -13,23 +13,14 @@
     <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
     <modules>
-      <module>annotation</module>
-      <module>processor</module>
+      <module>annotations</module>
+      <module>processors</module>
     </modules>
 
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 
   <dependencyManagement>
     <dependencies>
@@ -38,8 +29,12 @@
         <artifactId>auto-service</artifactId>
         <version>1.0-rc5</version>
       </dependency>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.10.2</version>
+      </dependency>
     </dependencies>
-
   </dependencyManagement>
 
   <build>
