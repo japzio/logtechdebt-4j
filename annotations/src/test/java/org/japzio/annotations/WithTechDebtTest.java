@@ -1,12 +1,13 @@
-package org.japzio.processor;
+package org.japzio.annotations;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class WithTechDebtProcessorTest {
+class WithTechDebtTest {
 
     @Test
-    void processAnnotation_Ok() {
+    void withAnnotationExpectLog_Ok() {
         Assertions.assertTrue(true);
     }
+
 }

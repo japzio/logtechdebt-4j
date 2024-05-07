@@ -1,4 +1,4 @@
-package org.japzio.annotation;
+package org.japzio.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;

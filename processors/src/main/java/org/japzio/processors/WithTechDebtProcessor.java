@@ -1,4 +1,4 @@
-package org.japzio.processor;
+package org.japzio.processors;
 
 import com.google.auto.service.AutoService;
 
@@ -11,7 +11,7 @@ import javax.lang.model.SourceVersion;
 import javax.lang.model.element.TypeElement;
 import java.util.Set;
 
-@SupportedAnnotationTypes("com.japzio.annotation.WithTechDebt")
+@SupportedAnnotationTypes("com.japzio.annotations.WithTechDebt")
 @SupportedSourceVersion(SourceVersion.RELEASE_17)
 @AutoService(Processor.class)
 public class WithTechDebtProcessor extends AbstractProcessor {
